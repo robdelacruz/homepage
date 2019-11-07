@@ -21,6 +21,8 @@ body, h1 {
     font-size: 0.8em;
     color: #888;
 }
+.byline time {
+}
 a {
     color: #82aaff;
     color: #ecc48d;
@@ -39,7 +41,7 @@ footer {
     font-size: smaller;
     color: #888;
 }
-.permalink {
+.permalink, .permalink a {
     margin-top: 2em;
     font-style: italic;
     font-size: smaller;
@@ -61,9 +63,18 @@ nav h1 {
 nav .byline {
     margin-top: 0.4em;
 }
+article {
+    margin-bottom: 2em;
+}
 article h1 {
     margin: 0;
     font-size: 1.2em;
+}
+article a {
+    color: #addb67;
+}
+.article-link {
+    margin: 0;
 }
 </style>
 </head>
@@ -75,6 +86,22 @@ article h1 {
     <a href="#">About</a>
     <p class="byline">A website about programming and my thoughts on things.</p>
 </nav>
+<article>
+    <h1>Latest Links</h1>
+    <p class="byline">posted by robdelacruz <time>2019-11-06</time></p>
+    <p>
+        <p class="article-link"><a href="#">fortune2 now available</a></p>
+        <p class="byline">fortune2 is a clone of the classic Unix fortune program </p>
+    </p>
+    <p>
+        <p class="article-link"><a href="#">Always something there to remind me</a></p>
+        <p class="byline">posted by robdelacruz <time>2019-11-06</time></p>
+    </p>
+    <p>
+        <p class="article-link"><a href="#">fortune2 now available</a></p>
+        <p class="byline">posted by robdelacruz <time>2019-11-06</time></p>
+    </p>
+</article>
 <article>
     <h1>Article Title</h1>
     <p class="byline">posted by robdelacruz <time>2019-11-06</time></p>
