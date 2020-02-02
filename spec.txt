@@ -1,0 +1,5 @@
+Simulate table display:
+  parent - display: table; max-width: 60em;
+  left col (maintext)  - display: table-cell; width: 75%;
+  right col (sidebar) - display: table-cell; width: 25%;
+
